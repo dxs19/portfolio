@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 150vh;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
@@ -30,11 +30,15 @@
 }
 
 .img {
+
   width: 550px;
   height: 350px;
   padding: 50px;
-  float: left;
-  clear: auto;
+  align-items: center;
+
+  /* width: 100%;
+  height: 100% */
+  /* clear: auto; */
 }
 
 .background {
@@ -55,8 +59,12 @@
 
 
 .project {
-  width: 100px;
-  height: 100px;
+  /* display: grid; */
+  align-items: center;
+}
+
+.contact {
+  margin: 100px
 }
 
 @keyframes App-logo-spin {
@@ -69,14 +77,23 @@
   }
 }
 
-.list {
+.project-div {
+  display: flex;
+  justify-content: center;
+  display: grid;
 
+}
+
+.list {
+  display: inline;
   color: white;
 }
 
-.project-div {
-  text-align: right;
-}
+/* .project-div {
+  text-align: center;
+  display: grid;
+
+} */
 
 nav {
   text-decoration: none;

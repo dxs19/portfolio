@@ -18,7 +18,7 @@ const Home = () => {
                     SQL, PostgreSQL, MongoDB</h5>
             </div>
         </div>
-        <div>
+        <div className="contact">
             <h1>
                 Contact Info:
             </h1>
